@@ -1,0 +1,23 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIARZ5BNELSZHXADWN6
+      secret-key: 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
+
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: proyseginformatica
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 10MB
+      max-request-size: 10MB
